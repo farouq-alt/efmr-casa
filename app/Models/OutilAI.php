@@ -9,6 +9,8 @@ class OutilAI extends Model
 {
     use HasFactory;
 
+    protected $table = 'outil_ais';
+
     // Allow mass assignment for these fields
     protected $fillable = ['nom', 'description', 'site_url', 'categorie_id'];
 
